@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ConverterTest {
 
-    @org.junit.Test
+    @Test
     public void whenConvert140RblThen2Euro() {
         int in = 140;
         int expected = 2;
@@ -13,7 +13,7 @@ public class ConverterTest {
         Assert.assertEquals(expected, out);
     }
 
-    @org.junit.Test
+    @Test
     public void whenConvert180RblThen3Dlr() {
         int in = 120;
         int expected = 2;
