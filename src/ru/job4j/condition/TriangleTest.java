@@ -13,7 +13,7 @@ public class TriangleTest {
 
     @Test
     public void whenNotexist() {
-        boolean result = Triangle.exist(10, 4, 5);
+        boolean result = Triangle.exist(11, 4, 5);
         assertThat(result, is(false));
     }
 }
