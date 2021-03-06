@@ -12,8 +12,8 @@ public class MaxTest {
     }
     @Test
     public void Max1(){
-        int result = Max.max(8, 6);
-        assertThat(result, is(8));
+        int result = Max.max(9, 6);
+        assertThat(result, is(9));
     }
     @Test
     public void Max2() {
