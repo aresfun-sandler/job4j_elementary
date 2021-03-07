@@ -9,8 +9,8 @@ public class ThreeMaxTest {
 
     @Test
     public void firstMax() {
-        int rsl = ThreeMax.max(10, 5, 1);
-        assertThat(rsl, is(10));
+        int rsl = ThreeMax.max(11, 5, 1);
+        assertThat(rsl, is(11));
     }
 
     @Test
