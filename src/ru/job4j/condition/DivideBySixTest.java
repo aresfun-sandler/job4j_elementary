@@ -9,7 +9,7 @@ public class DivideBySixTest {
     @Test
     public void whenNumberDivideBy6() {
         String expected = "Исходное число делится на 6.";
-        assertThat(DivideBySix.checkNumber(24), is(expected));
+        assertThat(DivideBySix.checkNumber(36), is(expected));
     }
 
     @Test
