@@ -1,6 +1,7 @@
-package ru.job4j.condition;
+package ru.job4j.test;
 
 import org.junit.Test;
+import ru.job4j.condition.ThreeMax;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -9,8 +10,8 @@ public class ThreeMaxTest {
 
     @Test
     public void firstMax() {
-        int rsl = ThreeMax.max(11, 5, 1);
-        assertThat(rsl, is(11));
+        int rsl = ThreeMax.max(13, 5, 1);
+        assertThat(rsl, is(13));
     }
 
     @Test
