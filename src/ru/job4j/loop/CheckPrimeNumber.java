@@ -11,9 +11,4 @@ public class CheckPrimeNumber {
         }
         return prime;
     }
-
-    public static void main(String[] args) {
-        boolean out = CheckPrimeNumber.check(-2);
-        System.out.println(out);
-    }
 }
