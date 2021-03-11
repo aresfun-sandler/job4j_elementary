@@ -13,9 +13,8 @@ public class ArrayDefinition {
         names[1] = "job4j02";
         names[2] = "job4j03";
         names[3] = "job4j04";
-        System.out.println(names[0]);
-        System.out.println(names[1]);
-        System.out.println(names[2]);
-        System.out.println(names[3]);
+        for (String i : names) {
+            System.out.println(i);
+        }
     }
 }
