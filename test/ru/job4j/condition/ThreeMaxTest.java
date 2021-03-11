@@ -1,4 +1,4 @@
-package ru.job4j.test;
+package test;
 
 import org.junit.Test;
 import ru.job4j.condition.ThreeMax;

@@ -1,7 +1,8 @@
-package ru.job4j.ru.job4j.calculator;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.ru.job4j.calculator.X2;
 
 public class X2Test {
 
