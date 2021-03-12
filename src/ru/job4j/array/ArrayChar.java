@@ -6,9 +6,9 @@ public class ArrayChar {
         boolean result = true;
         for (int index = 0; index < pref.length; index++) {
             if (pref[0] == word[0] && pref[1] == word[1]) {
-                result = true;
+                 result = true;
             } else {
-                result = false;
+                 result = false;
             }
         }
         return result;
