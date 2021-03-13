@@ -10,8 +10,8 @@ public class EqLastTest {
 
     @Test
     public void whenEq() {
-        int[] left = {1, 2, 3};
-        int[] right = {5, 4, 3};
+        int[] left = {1, 2, 5};
+        int[] right = {5, 4, 5};
         assertThat(check(left, right), is(true));
     }
 
