@@ -10,9 +10,9 @@ public class MinTest {
     public void whenFirstMin() {
         assertThat(
                 Min.findMin(
-                        new int[] {0, 5, 10}
+                        new int[] {1, 5, 10}
                 ),
-                is(0)
+                is(1)
         );
     }
 
