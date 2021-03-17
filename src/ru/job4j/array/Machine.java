@@ -9,10 +9,9 @@ public class Machine {
         int size = 0;
         int surrender = money - price;
         for (int i = 0; i < coins.length; i++) {
-            while (surrender - coins[i] >= 0) {
+            while ((surrender - coins[i]) >= 0) {
               surrender -= coins[i];
-              size++;
-              rsl[size] = coins[i];
+              rsl[size++] = coins[i];
             }
         }
         return Arrays.copyOf(rsl, size);
